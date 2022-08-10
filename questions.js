@@ -14,7 +14,7 @@ questions = [
             "econ": 0.4,
             "dipl": 0.2,
             "govt": 2.0,
-            "scty": 10.0
+            "scty": 20.0
         }
     },
     {
@@ -23,7 +23,7 @@ questions = [
             "econ": 0.3,
             "dipl": 3.4,
             "govt": 2.4,
-            "scty": 0.6
+            "scty": 1.2
         }
     },
     {
@@ -32,7 +32,7 @@ questions = [
             "econ": -3.4,
             "dipl": -0.2,
             "govt": 0.0,
-            "scty": 0.0
+            "scty": 0.1
         }
     },
     {
@@ -59,7 +59,7 @@ questions = [
             "econ": -0.8,
             "dipl": -2.1,
             "govt": -10.8,
-            "scty": 4.9
+            "scty": 3.9
         }
     },
     {
@@ -68,7 +68,7 @@ questions = [
             "econ": 0.0,
             "dipl": -1.4,
             "govt": -6.7,
-            "scty": -0.9
+            "scty": -0.2
         }
     },
     {
@@ -113,7 +113,7 @@ questions = [
             "econ": 0.0,
             "dipl": 0.5,
             "govt": 0.6,
-            "scty": -9.7
+            "scty": -10.7
         }
     },
     {
@@ -167,7 +167,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 8.4
+            "scty": 10.4
         }
     }
 ];
