@@ -1,217 +1,524 @@
 questions = [
     {
-        "question": "El Imperialismo es sinonimo de Estados Unidos.",
-        "effect": {
-            "econ": 6.1,
-            "dipl": 0.9,
-            "govt": 0.1,
-            "scty": 0.0
-        }
-    },
-    {
-        "question": "Se debe censurar a los Religiosos.",
-        "effect": {
-            "econ": -0.4,
-            "dipl": -0.2,
-            "govt": -2.0,
-            "scty": 20.1
-        }
-    },
-    {
-        "question": "Estoy en Contra de La Organzacion del La Organización del Tratado del Atlántico Norte.",
-        "effect": {
-            "econ": 0.3,
-            "dipl": 3.4,
-            "govt": 2.4,
-            "scty": 1.2
-        }
-    },
-    {
-        "question": "Es estupido odiar el Capitalismo porque ahora es mas moderado.",
-        "effect": {
-            "econ": -3.4,
-            "dipl": -0.2,
-            "govt": 0.0,
-            "scty": 00
-        }
-    },
-    {
-        "question": "El Anarquismo es una Buena idea que se deberia poner en Practica.",
-        "effect": {
-            "econ": 0.1,
-            "dipl": 0.2,
-            "govt": 12.1,
-            "scty": 0.0
-        }
-    },
-    {
-        "question": "El Comunismo quiere el bien común.",
-        "effect": {
-            "econ": 10.2,
-            "dipl": -1.4,
-            "govt": 0.0,
-            "scty": 0.0
-        }
-    },
-    {
-        "question": "Hay que matar a todos los Religiosos.",
-        "effect": {
-            "econ": -0.8,
-            "dipl": -2.1,
-            "govt": -10.8,
-            "scty": 12.9
-        }
-    },
-    {
-        "question": "Todas Las Drogas, Incluso el alcohol, debe ser Ilegal.",
-        "effect": {
-            "econ": 0.0,
-            "dipl": -1.4,
-            "govt": -6.7,
-            "scty": -0.2
-        }
-    },
-    {
-        "question": "El Aborto es Asesinato",
-        "effect": {
-            "econ": -1.4,
-            "dipl": -1.0,
-            "govt": -2.2,
-            "scty": -10.8
-        }
-    },
-    {
-        "question": "La Democracia Universal no Funciona.",
-        "effect": {
-            "econ": -0.2,
-            "dipl": -10.0,
-            "govt": -15.5,
-            "scty": 0.0
-        }
-    },
-    {
-        "question": "El Feminismo no es lo que promete.",
-        "effect": {
-            "econ": -5.3,
-            "dipl": -3.5,
-            "govt": -5.1,
-            "scty": 0.9
-        }
-    },
-    {
-        "question": "El Egoismo es Malo.",
-        "effect": {
-            "econ": 10.0,
-            "dipl": 0.9,
-            "govt": -10.0,
-            "scty": 0.0
-        }
-    },
-    {
-        "question": "Los Niños deben ser educados en valores religiosos o tradicionales.",
-        "effect": {
-            "econ": 0.0,
-            "dipl": 0.5,
-            "govt": 0.6,
-            "scty": -20.7
-        }
-    },
-    {
-        "question": "La Religion enseña muchos valores",
-        "effect": {
-            "econ": 0.1,
-            "dipl": -7.1,
-            "govt": -4.1,
-            "scty": -7.9
-        }
-    },
-    {
-        "question": "El Mercado libre no es mala idea",
-            "econ": 15.5,
-            "dipl": 1.9,
-            "govt": 3.8,
-            "scty": 0.0
-        }
-    },
-    {
-        "question": "Los Militares son necesarios para defenderte.",
-        "effect": {
-            "econ": 0.0,
-            "dipl": -10.0,
-            "govt": -0.1,
-            "scty": 0.0
-        }
-    },
-    {
-        "question": "No odio el Nacionalismo.",
+        "question": "El Estado es Importante.",
         "effect": {
             "econ": 0,
-            "dipl": -10.0,
-            "govt": -0.9,
+            "dipl": -5,
+            "govt": -5,
             "scty": 0
         }
     },
     {
-        "question": "Creo en dios.",
+        "question": "El Mercado debe ser regulado.",
         "effect": {
-            "econ": 0.0,
-            "dipl": -1.1,
-            "govt": -2.0,
-            "scty": -6.1
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
         }
     },
     {
-        "question": "La Religion ha hecho mucho daño.",
+        "question": "Si Hay Armas de Fuego, deben ser Privatizadas.",
+        "effect": {
+            "econ": -15,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "El Posadismo es una Estupidez.",
+        "effect": {
+            "econ": -10,
+            "dipl": 10,
+            "govt": -10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "la Democracia nesesita altos niveles de educación.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Los Impuestos no son nesesarios.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "El Comunismo no busca el bien común.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La educación debe de ser publica.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Prefiero una dictadura que una Anarquia.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Los Hospitales deben ser Privados.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Apoyo el Ateismo de Estado.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Los medios de produccion deben ser de los trabajadores.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "la OTAN debe ser abolida.",
+        "effect": {
+            "econ": 5,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "La ONU debe ser Abolida.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La UE debe ser Abolida.",
+        "effect": {
+            "econ": -5,
+            "dipl": -10,
+            "govt": 10,
+            "scty": -5
+        }
+    },
+    {
+        "question": "Soy Nacionalista.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "El Egoismo es Maligno.",
+        "effect": {
+            "econ": 10,
+            "dipl": 10,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Es Mas Importante la paz que la Guerra.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Las Guerras son nesesarias para defenderte.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "El Gasto militar es una predida de dinero.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La Ayuda Internacional es Estupida.",
+        "effect": {
+            "econ": -5,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Prefiero una Anarquia Comunista a una Dictadura Capitalista.",
+        "effect": {
+            "econ": 10,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "El Federalismo es bueno.",
+        "effect": {
+            "econ": -5,
+            "dipl": 10,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La Vigilancia gubernamental es un mal nesesarrio.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La Revolución es la unica forma de que el socialismo funcione.",
+        "effect": {
+            "econ": 10,
+            "dipl": -5,
+            "govt": 5,
+            "scty": 5
+        }
+    },
+    {
+        "question": "La Religion enseña muchos valores.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": -10
+        }
+    },
+    {
+        "question": "La Cerveza se debe de prohibir.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Es Muy Importante Mantener la Ley y el Orden.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La Democracia directa es muy utopico.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Apoyo la Eutanasia.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "El Tabaco debe prohibirse.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "El Cannabis debe Prohibirse.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -5
+        }
+    },
+    {
+        "question": "El Estado es una amenaza a nuestra libertad.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Hitler no fue mala persona.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": -5
+        }
+    },
+    {
+        "question": "La Dictadura es Mala.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 5
+        }
+    },
+    {
+        "question": "La Herarquia es Nesesaria.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Prefiero el Stalinismo a la Anarquia Capitalista.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Es Importante un buen Lider.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La Socialdemocracia es demasiado moderado para considerarse de izquierda.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -5
+        }
+    },
+    {
+        "question": "La Extincion Humana Voluntaria es la mejor forma de gobierno.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 10,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Jesús Existió.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10.4
+            "scty": -10
         }
     },
     {
-        "question": "El Socialismo y el Comunismo es casi lo mismo.",
+        "question": "Los Niños debe ser educados en valores Tradicionales.",
         "effect": {
-            "econ": -6.4,
-            "dipl": 0.2,
-            "govt": -2.0,
-            "scty": -7.0
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
         }
     },
     {
-        "question": "Las Guerras internacionales son malas.",
+        "question": "La Religión debe ser sensurada.",
         "effect": {
-            "econ": 0.3,
-            "dipl": 3.4,
-            "govt": 2.4,
-            "scty": 0.0
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 20
         }
     },
     {
-        "question": "Los Judios son SATANICOS.",
+        "question": "Una Dictadura Religiosa es Estupida.",
         "effect": {
-            "econ": 9.4,
-            "dipl": 27.2,
-            "govt": 0.8,
-            "scty": 23.9
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 10
         }
     },
     {
-        "question": "Odio la ciencia.",
+        "question": "Si hay Impuestos, Las Iglesias deben pagar impuestos como otras instituciones.",
         "effect": {
-            "econ": -0.1,
-            "dipl": -0.2,
-            "govt": -0.1,
-            "scty": -7.1
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
-        "question": "Soy de Derecha.",
+        "question": "Hay que parar la tecnologia para combattir el cambio climatico.",
         "effect": {
-            "econ": -6.2,
-            "dipl": -1.4,
-            "govt": -0.7,
-            "scty": -9.1
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "El EcoFascismo es la mejor ideologia de gobierno.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La Sociedad era mejor hace unas decadas.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Hay que matar a todos los religiosos.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": -10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "El Transhumanismo es una buena idea.",
+        "effect": {
+            "econ": -5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 20
+        }
+    },
+    {
+        "question": "Hay que mantener nuestra cultura.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "La Cocaina debe Prohibirse.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Respeto a la Comunidad LGBT.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Ninguna cultura es superior a otras.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 5,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Me Considero ProVida.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Odio el Capitalismo.",
+        "effect": {
+            "econ": 20,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Apoyo el Matrimonio de otras Razas.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": 10,
+            "scty": 10
+        }
+    },
+    {
+        "question": "Me Considero Conservador.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
         }
     }
-]; 
+];
