@@ -167,7 +167,7 @@ questions = [
             "dipl": 0,
             "govt": 0,
             "scty": 10.4
-         }
+        }
     },
     {
         "question": "El Socialismo y el Comunismo es casi lo mismo.",
