@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "The Imperialism is synonymous with the United States.",
+        "question": "El Imperialismo es sinonimo de Estados Unidos.",
         "effect": {
             "econ": 6.1,
             "dipl": 0.9,
@@ -9,16 +9,16 @@ questions = [
         }
     },
     {
-        "question": "The State atheism is a good idea.",
+        "question": "Se debe censurar a los Religiosos.",
         "effect": {
-            "econ": 0.4,
-            "dipl": 0.2,
-            "govt": 2.0,
-            "scty": 20.0
+            "econ": -0.4,
+            "dipl": -0.2,
+            "govt": -2.0,
+            "scty": 20.1
         }
     },
     {
-        "question": "I am against with The North Atlantic Treaty Organization.",
+        "question": "Estoy en Contra de La Organzacion del La Organización del Tratado del Atlántico Norte.",
         "effect": {
             "econ": 0.3,
             "dipl": 3.4,
@@ -27,16 +27,16 @@ questions = [
         }
     },
     {
-        "question": "It's stupid to hate capitalism when it's moderate now.",
+        "question": "Es estupido odiar el Capitalismo porque ahora es mas moderado.",
         "effect": {
             "econ": -3.4,
             "dipl": -0.2,
             "govt": 0.0,
-            "scty": 0.1
+            "scty": 00
         }
     },
     {
-        "question": "The Anarchists are not terrorists, anarchists want world peace.",
+        "question": "El Anarquismo es una Buena idea que se deberia poner en Practica.",
         "effect": {
             "econ": 0.1,
             "dipl": 0.2,
@@ -45,25 +45,25 @@ questions = [
         }
     },
     {
-        "question": "The Communism does not seek the common good.",
+        "question": "El Comunismo quiere el bien común.",
         "effect": {
-            "econ": -6.2,
-            "dipl": 1.4,
-            "govt": 0.7,
+            "econ": 10.2,
+            "dipl": -1.4,
+            "govt": 0.0,
             "scty": 0.0
         }
     },
     {
-        "question": "We have to kill all the Religious at all costs.",
+        "question": "Hay que matar a todos los Religiosos.",
         "effect": {
             "econ": -0.8,
             "dipl": -2.1,
             "govt": -10.8,
-            "scty": 2.9
+            "scty": 12.9
         }
     },
     {
-        "question": "All drugs, including beer, should be banned.",
+        "question": "Todas Las Drogas, Incluso el alcohol, debe ser Ilegal.",
         "effect": {
             "econ": 0.0,
             "dipl": -1.4,
@@ -72,16 +72,16 @@ questions = [
         }
     },
     {
-        "question": "The abortion is sin.",
+        "question": "El Aborto es Asesinato",
         "effect": {
             "econ": -1.4,
             "dipl": -1.0,
             "govt": -2.2,
-            "scty": -30.8
+            "scty": -10.8
         }
     },
     {
-        "question": "Democracy doesn't work.",
+        "question": "La Democracia Universal no Funciona.",
         "effect": {
             "econ": -0.2,
             "dipl": -10.0,
@@ -90,16 +90,16 @@ questions = [
         }
     },
     {
-        "question": "The Feminism is not what it promises.",
+        "question": "El Feminismo no es lo que promete.",
         "effect": {
             "econ": -5.3,
-            "dipl": -9.5,
+            "dipl": -3.5,
             "govt": -5.1,
             "scty": 0.9
         }
     },
     {
-        "question": "The Egoism is Bad.",
+        "question": "El Egoismo es Malo.",
         "effect": {
             "econ": 10.0,
             "dipl": 0.9,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "The Childrens must be educated in traditional values.",
+        "question": "Los Niños deben ser educados en valores religiosos o tradicionales.",
         "effect": {
             "econ": 0.0,
             "dipl": 0.5,
@@ -117,25 +117,24 @@ questions = [
         }
     },
     {
-        "question": " The Child trafficking should be legal",
+        "question": "La Religion enseña muchos valores",
         "effect": {
-            "econ": -20.1,
-            "dipl": -10.1,
-            "govt": -24.1,
-            "scty": 0.0
+            "econ": 0.1,
+            "dipl": -7.1,
+            "govt": -4.1,
+            "scty": -7.9
         }
     },
     {
-        "question": "The Market is GOD.",
-        "effect": {
+        "question": "El Mercado libre no es mala idea",
             "econ": 15.5,
             "dipl": 1.9,
-            "govt": 0.1,
+            "govt": 3.8,
             "scty": 0.0
         }
     },
     {
-        "question": "The military are needed as defense.",
+        "question": "Los Militares son necesarios para defenderte.",
         "effect": {
             "econ": 0.0,
             "dipl": -10.0,
@@ -144,7 +143,7 @@ questions = [
         }
     },
     {
-        "question": "If there are immigrants, they must learn our language to enter.",
+        "question": "No odio el Nacionalismo.",
         "effect": {
             "econ": 0,
             "dipl": -10.0,
@@ -153,21 +152,66 @@ questions = [
         }
     },
     {
-        "question": "The State Capitalism its not  the true Communism.",
+        "question": "Creo en dios.",
         "effect": {
-            "econ": -10,
-            "dipl": 0.0,
-            "govt": 0.0,
-            "scty": 0.0
+            "econ": 0.0,
+            "dipl": -1.1,
+            "govt": -2.0,
+            "scty": -6.1
         }
     },
     {
-        "question": "The Religion has done a lot of damage.",
+        "question": "La Religion ha hecho mucho daño.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 30.4
+            "scty": 10.4
+         }
+    },
+    {
+        "question": "El Socialismo y el Comunismo es casi lo mismo.",
+        "effect": {
+            "econ": -6.4,
+            "dipl": 0.2,
+            "govt": -2.0,
+            "scty": -7.0
+        }
+    },
+    {
+        "question": "Las Guerras internacionales son malas.",
+        "effect": {
+            "econ": 0.3,
+            "dipl": 3.4,
+            "govt": 2.4,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "Los Judios son SATANICOS.",
+        "effect": {
+            "econ": 9.4,
+            "dipl": 27.2,
+            "govt": 0.8,
+            "scty": 23.9
+        }
+    },
+    {
+        "question": "Odio la ciencia.",
+        "effect": {
+            "econ": -0.1,
+            "dipl": -0.2,
+            "govt": -0.1,
+            "scty": -7.1
+        }
+    },
+    {
+        "question": "Soy de Derecha.",
+        "effect": {
+            "econ": -6.2,
+            "dipl": -1.4,
+            "govt": -0.7,
+            "scty": -9.1
         }
     }
 ];
