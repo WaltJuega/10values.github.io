@@ -1,227 +1,173 @@
 questions = [
     {
-        "question": "THE CLASSICAL MARXISM IS NOT A BAD IDEA.",
+        "question": "The Imperialism is synonymous with the United States.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 15,
-            "scty": 5
+            "econ": 6.1,
+            "dipl": 0.9,
+            "govt": 0.1,
+            "scty": 0.0
         }
     },
     {
-        "question": "EQUAL WEALTH IS POSSIBLE.",
+        "question": "The State atheism is a good idea.",
         "effect": {
-            "econ": 10,
-            "dipl": 5,
-            "govt": 5,
+            "econ": 0.4,
+            "dipl": 0.2,
+            "govt": 2.0,
+            "scty": 6.0
+        }
+    },
+    {
+        "question": "I am against with The North Atlantic Treaty Organization.",
+        "effect": {
+            "econ": 0.3,
+            "dipl": 3.4,
+            "govt": 2.4,
+            "scty": 0.6
+        }
+    },
+    {
+        "question": "It's stupid to hate capitalism when it's moderate now.",
+        "effect": {
+            "econ": -3.4,
+            "dipl": -0.2,
+            "govt": 0.0,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "The Anarchists are not terrorists, anarchists want world peace.",
+        "effect": {
+            "econ": 0.1,
+            "dipl": 0.2,
+            "govt": 12.1,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "The Communism does not seek the common good.",
+        "effect": {
+            "econ": -6.2,
+            "dipl": 1.4,
+            "govt": 0.7,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "We have to kill all the Religious at all costs.",
+        "effect": {
+            "econ": -0.8,
+            "dipl": -2.1,
+            "govt": -10.8,
+            "scty": 13.9
+        }
+    },
+    {
+        "question": "All drugs, including beer, should be banned.",
+        "effect": {
+            "econ": 0.0,
+            "dipl": -1.4,
+            "govt": -6.7,
+            "scty": -0.9
+        }
+    },
+    {
+        "question": "The abortion is sin.",
+        "effect": {
+            "econ": -1.4,
+            "dipl": -1.0,
+            "govt": -2.2,
+            "scty": -5.8
+        }
+    },
+    {
+        "question": "Democracy doesn't work.",
+        "effect": {
+            "econ": -0.2,
+            "dipl": -10.0,
+            "govt": -15.5,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "The Feminism is not what it promises.",
+        "effect": {
+            "econ": -5.3,
+            "dipl": -9.5,
+            "govt": -5.1,
+            "scty": 0.9
+        }
+    },
+    {
+        "question": "The Egoism is Bad.",
+        "effect": {
+            "econ": 10.0,
+            "dipl": 0.9,
+            "govt": -10.0,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "The Childrens must be educated in traditional values.",
+        "effect": {
+            "econ": 0.0,
+            "dipl": 0.5,
+            "govt": 0.6,
+            "scty": 9.7
+        }
+    },
+    {
+        "question": " The Child trafficking should be legal",
+        "effect": {
+            "econ": -20.1,
+            "dipl": -10.1,
+            "govt": -24.1,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "The Market is GOD.",
+        "effect": {
+            "econ": 15.5,
+            "dipl": 1.9,
+            "govt": 0.1,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "The military are needed as defense.",
+        "effect": {
+            "econ": 0.0,
+            "dipl": -10.0,
+            "govt": -0.1,
+            "scty": 0.0
+        }
+    },
+    {
+        "question": "If there are immigrants, they must learn our language to enter.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10.0,
+            "govt": -0.9,
             "scty": 0
         }
     },
     {
-        "question": "EDUCATION SHOULD BE FREE.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "IT IS STUPID TO HATE CAPITALISM WHEN NOW IT IS MUCH MORE MODERATE.",
-        "effect": {
-            "econ": -5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "HEALTH SHOULD BE PRIVATIZED.",
+        "question": "The State Capitalism its not  the true Communism.",
         "effect": {
             "econ": -10,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "dipl": 0.0,
+            "govt": 0.0,
+            "scty": 0.0
         }
     },
     {
-        "question": "THE SOVIET UNION COULD BE GOOD IF IT HAD DEMOCRACY.",
-        "effect": {
-            "econ": 10,
-            "dipl": 5,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "IF CAPITALISM IS DENIED, SOCIAL DEMOCRACY WOULD BE THE BEST OPTION.",
-        "effect": {
-            "econ": -5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "THE NAZIS WHERE SOCIALISTS.",
-        "effect": {
-            "econ": -5,
-            "dipl": 0,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "THE MARKET IS NOT A BAD IDEA",
-        "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "NATO IS NOT WHAT IT PROMISES.",
-        "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 5
-        }
-    },
-    {
-        "question": "FEMINISM IS NOT WHAT IT PROMISES.",
-        "effect": {
-            "econ": -5,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "THE MEANS OF PRODUCTION SHOULD BELONG TO THE WORKERS.",
-        "effect": {
-            "econ": 10,
-            "dipl": 5,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "WORLD EQUALITY IS POSSIBLE.",
-        "effect": {
-            "econ": 10,
-            "dipl": 5,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "LOS ANTIFASH SE DEBERIAN LLAMAR TERRORISTAS",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "THE IMPERIALISM IS COMPLETELY EVIL.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "A UNITED WORLD GOVERNMENT IS PREFERRED TO ANARCHY.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "FASCISM MUST SPREAD THROUGHOUT THE WORLD.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "IN MY OPINION, A STATE IS NOT NECESSARY.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "THE TRANSHUMANISM IS IDEAL.",
+        "question": "The Religion has done a lot of damage.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 20
-        }
-    },
-    {
-        "question": "IT IS SAD THAT A TRADITION IN YOUR COUNTRY DISAPPEARS",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "question": "LA RELIGION DEBE DESAPARECER.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 25
-        }
-    },
-    {
-        "question": "CHILDREN SHOULD BE EDUCATED IN TRADITIONAL VALUES.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "I WOULD LIKE A COMPLETELY ASEXUAL STATE.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "RELIGION HAS DONE A LOT OF HARM.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "TRANSHUMANISM IS TOO UTOPIAN.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 20
+            "scty": -3.4
         }
     }
 ];
