@@ -59,7 +59,7 @@ questions = [
             "econ": -0.8,
             "dipl": -2.1,
             "govt": -10.8,
-            "scty": 3.9
+            "scty": 2.9
         }
     },
     {
@@ -77,7 +77,7 @@ questions = [
             "econ": -1.4,
             "dipl": -1.0,
             "govt": -2.2,
-            "scty": -20.8
+            "scty": -30.8
         }
     },
     {
@@ -167,7 +167,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 20.4
+            "scty": 30.4
         }
     }
 ];
