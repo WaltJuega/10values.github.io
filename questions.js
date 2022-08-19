@@ -47,7 +47,7 @@ questions = [
     {
         "question": "Los Impuestos no son nesesarios.",
         "effect": {
-            "econ": -10,
+            "econ": -5,
             "dipl": 0,
             "govt": 10,
             "scty": 0
