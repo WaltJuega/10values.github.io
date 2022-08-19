@@ -18,6 +18,15 @@ questions = [
         }
     },
     {
+        "question": "El Capitalismo es la mejor alternativa existente.",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
         "question": "Si Hay Armas de Fuego, deben ser Privatizadas.",
         "effect": {
             "econ": -15,
