@@ -3,31 +3,31 @@ questions = [
         "question": "El Estado es Importante.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": 0,
             "govt": -5,
             "scty": 0
         }
     },
     {
-        "question": "El Mercado debe ser regulado.",
+        "question": "El Mercado es completamente bueno.",
         "effect": {
-            "econ": 10,
+            "econ": -5,
             "dipl": 0,
-            "govt": 0,
+            "govt": -3,
             "scty": 0
         }
     },
     {
         "question": "El Capitalismo es la mejor alternativa existente.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Si Hay Armas de Fuego, deben ser Privatizadas.",
+        "question": "Si hubiese Armas de Fuego, deben ser Privatizadas.",
         "effect": {
             "econ": -15,
             "dipl": 0,
@@ -38,23 +38,23 @@ questions = [
     {
         "question": "El Posadismo es una Estupidez.",
         "effect": {
-            "econ": -10,
-            "dipl": 10,
-            "govt": -10,
-            "scty": 10
+            "econ": -5,
+            "dipl": 5,
+            "govt": 5,
+            "scty": 5
         }
     },
     {
         "question": "la Democracia nesesita altos niveles de educación.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            "dipl": 0,
             "govt": -10,
             "scty": 0
         }
     },
     {
-        "question": "Los Impuestos no son nesesarios.",
+        "question": "Un Grán porcentaje de los Impuestos no son nesesarios.",
         "effect": {
             "econ": -5,
             "dipl": 0,
@@ -76,7 +76,7 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
-            "govt": 0,
+            "govt": 5,
             "scty": 0
         }
     },
@@ -99,12 +99,12 @@ questions = [
         }
     },
     {
-        "question": "Apoyo el Ateismo de Estado.",
+        "question": "El Ateismo no es Bueno.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
-            "scty": 10
+            "govt": -5,
+            "scty": -10
         }
     },
     {
@@ -144,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "Soy Nacionalista.",
+        "question": "Hay algunas culturas que no se pueden tolerar en ningun Contexto.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -156,8 +156,8 @@ questions = [
         "question": "El Egoismo es Maligno.",
         "effect": {
             "econ": 10,
-            "dipl": 10,
-            "govt": -10,
+            "dipl": 0,
+            "govt": -5,
             "scty": 0
         }
     },
@@ -180,18 +180,18 @@ questions = [
         }
     },
     {
-        "question": "El Gasto militar es una predida de dinero.",
+        "question": "El Gasto militar es estupido.",
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 10,
+            "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "La Ayuda Internacional es Estupida.",
+        "question": "La Ayuda Internacional es estupida.",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": -10,
             "govt": 0,
             "scty": 0
@@ -203,24 +203,24 @@ questions = [
             "econ": 10,
             "dipl": 10,
             "govt": 10,
-            "scty": 10
+            "scty": 5
         }
     },
     {
         "question": "El Federalismo es bueno.",
         "effect": {
-            "econ": -5,
-            "dipl": 10,
+            "econ": 0,
+            "dipl": 5,
             "govt": 10,
             "scty": 0
         }
     },
     {
-        "question": "La Vigilancia gubernamental es un mal nesesarrio.",
+        "question": "La Vigilancia gubernamental es un mal nesesario.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
-            "govt": 10,
+            "dipl": 0,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -230,14 +230,14 @@ questions = [
             "econ": 10,
             "dipl": -5,
             "govt": 5,
-            "scty": 5
+            "scty": 0
         }
     },
     {
         "question": "La Religion enseña muchos valores.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": 0,
             "govt": -10,
             "scty": -10
         }
@@ -246,8 +246,8 @@ questions = [
         "question": "La Cerveza se debe de prohibir.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": -5,
+            "dipl": 0,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -255,7 +255,7 @@ questions = [
         "question": "Es Muy Importante Mantener la Ley y el Orden.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": 0,
             "govt": -10,
             "scty": 0
         }
@@ -264,7 +264,7 @@ questions = [
         "question": "La Democracia directa es muy utopico.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": -5,
             "govt": -10,
             "scty": 0
         }
@@ -308,8 +308,8 @@ questions = [
     {
         "question": "Hitler no fue mala persona.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
+            "econ": -5,
+            "dipl": -15,
             "govt": -10,
             "scty": -5
         }
@@ -320,7 +320,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 5
+            "scty": 0
         }
     },
     {
@@ -333,11 +333,11 @@ questions = [
         }
     },
     {
-        "question": "Prefiero el Stalinismo a la Anarquia Capitalista.",
+        "question": "Prefiero la Dictadura Comunista a la Anarquia Capitalista.",
         "effect": {
-            "econ": 0,
+            "econ": 10,
             "dipl": 0,
-            "govt": 10,
+            "govt": -10,
             "scty": 0
         }
     },
@@ -345,18 +345,18 @@ questions = [
         "question": "Es Importante un buen Lider.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": 0,
             "govt": -10,
             "scty": 0
         }
     },
     {
-        "question": "La Socialdemocracia es demasiado moderado para considerarse de izquierda.",
+        "question": "Un mundo unido siempre llevará a una dictadura global (y eso es malo).",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -5
+            "econ": 0,
+            "dipl": -10,
+            "govt": 10,
+            "scty": 0
         }
     },
     {
@@ -364,8 +364,8 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "govt": 10,
-            "scty": -10
+            "govt": 0,
+            "scty": 0
         }
     },
     {
@@ -391,7 +391,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 0,
+            "govt": -10,
             "scty": 20
         }
     },
@@ -405,19 +405,19 @@ questions = [
         }
     },
     {
-        "question": "Si hay Impuestos, Las Iglesias deben pagar impuestos como otras instituciones.",
+        "question": "Hay que dejar las ciudades para volver a pueblos rurales.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": -10,
             "govt": 0,
-            "scty": 10
+            "scty": -20
         }
     },
     {
-        "question": "Hay que parar la tecnologia para combattir el cambio climatico.",
+        "question": "Hay que parar la tecnologia para combatir el cambio climatico.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": 10,
             "govt": 0,
             "scty": -10
         }
@@ -426,7 +426,7 @@ questions = [
         "question": "El EcoFascismo es la mejor ideologia de gobierno.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            "dipl": -5,
             "govt": -10,
             "scty": 0
         }
@@ -444,7 +444,7 @@ questions = [
         "question": "Hay que matar a todos los religiosos.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -5,
             "govt": -10,
             "scty": 10
         }
@@ -479,8 +479,8 @@ questions = [
     {
         "question": "Respeto a la Comunidad LGBT.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
+            "econ": 5,
+            "dipl": 10,
             "govt": 10,
             "scty": 10
         }
@@ -491,7 +491,7 @@ questions = [
             "econ": 0,
             "dipl": 10,
             "govt": 5,
-            "scty": 10
+            "scty": 0
         }
     },
     {
@@ -509,16 +509,16 @@ questions = [
             "econ": 20,
             "dipl": 0,
             "govt": 5,
-            "scty": 10
+            "scty": 0
         }
     },
     {
-        "question": "Apoyo el Matrimonio de otras Razas.",
+        "question": "Si hubiese matrimonio, Apoyaria el Matrimonio de otras Razas.",
         "effect": {
-            "econ": 0,
-            "dipl": 5,
+            "econ": 10,
+            "dipl": 10,
             "govt": 10,
-            "scty": 10
+            "scty": 0
         }
     },
     {
