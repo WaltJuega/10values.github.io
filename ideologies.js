@@ -288,7 +288,7 @@ ideologies = [
         }
     },
     {
-        "name": "Social Libertario,
+        "name": "Social Libertario",
         "stats": {
             "econ": 59,
             "dipl": 61,
